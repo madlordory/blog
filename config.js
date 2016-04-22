@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
+        url: 'http://madlord.cc',
         mail: {},
         database: {
             client: 'sqlite3',
@@ -35,8 +35,8 @@ config = {
         },*/
 
         server: {
-            host: '127.0.0.1',
-            port: '2368'
+            host: '159.203.209.229',
+            port: '80'
         },
 
         //Storage.Now,we can support `qiniu`,`upyun`, `aliyun oss`, `aliyun ace-storage` and `local-file-store`
