@@ -18,12 +18,13 @@
   "license": "MIT",
   "main": "./core/index",
   "scripts": {
-    "preinstall": "npm config set registry http://registry.cnpmjs.org",
+    "preinstall": "npm install semver && node -e \"require('./core/server/utils/startup-check.js').nodeVersion()\"",
     "start": "node index",
     "test": "grunt validate --verbose"
   },
   "engines": {
-    "node": "4.2.0"
+    "node": "^4.2.0",
+    "iojs": "~1.2.0"
   },
   "dependencies": {
     "bcryptjs": "2.3.0",
