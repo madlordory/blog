@@ -1,3 +1,3 @@
-#!/usr/bin/sh
+#!/bin/sh
 pm2 stop ghost
-NODE_ENV=production p,2 start /data/webapp/blog/index.js --name "ghost"
+NODE_ENV=production pm2 start /data/webapp/blog/index.js --name "ghost"
