@@ -2,7 +2,8 @@
 neurons
 .cortex
 css/*.css
-
+content/data/
+content/images/
 # Numerous always-ignore extensions
 *.bak
 *.patch
