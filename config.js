@@ -55,10 +55,8 @@ config = {
             prefix: 'http://your-bucket-name.qiniudn.com'
         }*/
 
-        // or
-        // 参考文档： http://www.ghostchina.com/upyun-cdn-for-ghost/
-        /*storage: {
-            provider: 'upyun',
+        /*storage: { 
+            provider: 'upyu1n',
             bucketname: 'your-bucket-name',
             username: 'your user name',
             password: 'your password',
