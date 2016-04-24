@@ -1,6 +1,5 @@
 # Cortex
-neurons
-.cortex
+node_modules/
 css/*.css
 content/data/
 content/images/
