@@ -4,7 +4,7 @@
     <title>{{meta_title}}</title>
     {{> meta}}
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600%7CRoboto+Slab:300,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{asset "css/uno-zen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "build/uno-zen.css"}}" />
     {{ghost_head}}
   </head>
   <body class="{{body_class}}">
@@ -20,7 +20,8 @@
       </section>
     </main>
     {{ghost_foot}}
-    <script src="{{asset "js/uno-zen.js"}}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset "build/commons.js"}}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset "build/uno-zen.js"}}" type="text/javascript" charset="utf-8"></script>
     {{> google-analytics}}
   </body>
 </html>

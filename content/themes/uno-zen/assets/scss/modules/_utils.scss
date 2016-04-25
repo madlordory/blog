@@ -1,8 +1,8 @@
 %dotted-link {
-  border-bottom: 1px dashed $primary-color;
-  line-height: 25px;
-  transition: all .5s;
-  padding: .1rem .25rem;
+  //border-bottom: 1px dashed $primary-color;
+  //line-height: 25px;
+  //transition: all .5s;
+  //padding: .1rem .25rem;
 
   &:hover {
     color: $white;
@@ -55,7 +55,7 @@
 @mixin btn-cover-with-border {
   border: 1px solid $gray-lightest;
 
-  @extend btn-cover;
+  @include btn-cover;
 }
 
 @mixin placeholder {
