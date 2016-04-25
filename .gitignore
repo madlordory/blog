@@ -1,8 +1,8 @@
 # Cortex
 node_modules/
 css/*.css
-content/data/
-content/images/
+content/data/*.db
+content/images/*
 # Numerous always-ignore extensions
 *.bak
 *.patch
