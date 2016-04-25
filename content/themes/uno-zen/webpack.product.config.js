@@ -6,12 +6,10 @@
 var path = require('path');
 var webpack = require('webpack');
 let config=require('./webpack.config.js');
-config.plugins=[
-    ...config.plugins,
-    new webpack.optimize.UglifyJsPlugin({
-        compress: {
-            warnings: false
-        }
-    })
-];
+config.plugins=config.plugins||[];
+config.plugins.push(new webpack.optimize.UglifyJsPlugin({
+    compress: {
+        warnings: false
+    }
+}));
 module.exports = config;
