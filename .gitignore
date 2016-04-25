@@ -1,8 +1,10 @@
 # Cortex
 node_modules/
+content/apps
+content/data
+content/images
 css/*.css
-content/data/*.db
-content/images/*
+
 # Numerous always-ignore extensions
 *.bak
 *.patch
@@ -42,5 +44,4 @@ thumbs.db
 .CVS
 .idea
 dist/
-node_modules/
 jscoverage_lib/
