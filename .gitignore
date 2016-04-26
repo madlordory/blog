@@ -1,7 +1,7 @@
 # Cortex
 node_modules/
 content/apps
-content/data/*.db
+content/data
 content/images
 css/*.css
 
