@@ -35,8 +35,8 @@ config = {
         },*/
 
         server: {
-            host: '159.203.209.229',
-            port: '80'
+            host: 'localhost',
+            port: '2369'
         },
 
         //Storage.Now,we can support `qiniu`,`upyun`, `aliyun oss`, `aliyun ace-storage` and `local-file-store`
@@ -85,7 +85,7 @@ config = {
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
-        // ```
+        // ```:
         //  mail: {
         //      transport: 'SMTP',
         //      options: {
